@@ -1,0 +1,45 @@
+*{
+    padding: 0;
+    margin: 0;
+    border: none;
+}
+
+body{
+    font-size: 14px;
+    font-family: sans-serif;
+    margin: 0;
+    
+}
+
+.board_wrapper{
+    width: 50%;
+    height: 80%;
+    padding: 40px;
+    background-color: rgb(227, 218, 246);
+    box-sizing: border-box;
+    margin: 0 auto;
+    margin-top: 10%;
+    border-radius: 5px;
+}
+
+/* 세로 줄 스타일 설정 */
+table.list-table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+/* 행 사이에 세로 줄 설정 */
+table.list-table tr {
+    border-bottom: 1px solid #ccc; /* 세로 줄 스타일 및 색상 설정 */
+}
+
+/* 헤더 셀에 세로 줄 설정 (선택적으로 사용) */
+table.list-table th {
+    border-right: 1px solid #ccc; /* 세로 줄 스타일 및 색상 설정 */
+}
+
+/* 데이터 셀에 세로 줄 설정 */
+table.list-table td {
+    border-right: 1px solid #ccc; /* 세로 줄 스타일 및 색상 설정 */
+}
+
